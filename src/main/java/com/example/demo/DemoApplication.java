@@ -9,9 +9,15 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
-        int a=90;
-        int b=10;
-        System.out.println("sum of two numbers is "+a+b);
+        int[] nums = { 1,2,3,4,5 };
+        int first=0;
+        int second=-1;
+        for(int i=0;i<nums.length;i++){
+            if(first<nums[i]){
+                first=nums[i];
+            }
+        }
+        System.out.println("the value of first Max is "+first);
     }
 
 }
