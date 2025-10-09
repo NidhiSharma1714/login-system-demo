@@ -10,8 +10,8 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
         int a=90;
-        int b=908;
-        System.out.println(a);
+        int b=10;
+        System.out.println("sum of two numbers is "+a+b);
     }
 
 }
